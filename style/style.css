@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.quicksand-font{
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+}
+
+/* common style */
+:root{
+    --primary-color: #FEA301;
+    --secondry-color: #01ACFD;
+    --black-color: #111111;
+    --white-color: #FFFF;
+    --cardOne-bg: #DEF5FF;
+    --cardtwo-bg: #FFF4DC;
+    --cardthree-bg: #F2E8FF;
+}
+
+.container{
+    width: 1160px;
+    margin: auto;
+}
+.btn{
+    background-color: var(--secondry-color);
+    color: var(--white-color);
+    border: 0px;
+    border-radius: 16px;
+    padding: 20px 60px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* -----header style open----- */
+/* nav style open */
+.nav-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 0px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+.logo-title{
+    font-size: 32px;
+    font-weight: 700;
+}
+.nav-menu{
+    display: flex;
+    gap: 16px;
+    list-style: none;
+}
+.nav-menu li{
+    font-size: 20px;
+    font-weight: 500;
+}
+.nav-menu li:first-child{
+    color: #51f074;
+}
+.menu-li{
+    color: #e268e2;
+}
+.nav-menu li:last-child{
+    color: #01ACFD;
+}
+
+
+/* -----main style open----- */
+
+
+/* -----footer style open----- */
