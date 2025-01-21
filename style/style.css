@@ -25,14 +25,13 @@
 .container{
     width: 1160px;
     margin: auto;
-    padding: 3px;
 }
 .btn{
     background-color: var(--secondry-color);
     color: var(--white-color);
     border: 0px;
     border-radius: 16px;
-    padding: 20px 60px;
+    padding: 18px 40px;
     font-size: 20px;
     font-weight: 600;
 }
@@ -66,21 +65,26 @@
 .nav-menu li:first-child{
     color: #51f074;
 }
+
 .menu-li{
     color: #e268e2;
 }
 .nav-menu li:last-child{
     color: #01ACFD;
 }
+.fa-solid{
+    font-size: 27px;
+}
 .mobile-menu{
     display: none;
 }
+
 /* banner */
 .banner-main{
     display: flex;
     justify-content: space-between;
     align-items: center;
-   
+    padding: 60px 0px;
 }
 .banner-title{
     font-size: 58px;
@@ -100,6 +104,9 @@
 .banner-btn{
     background-color: var(--black-color);
 }
+.banner-img{
+    width: 100%;
+}
 
 
 /* -----main style open----- */
@@ -109,3 +116,68 @@
 
 
 /* responsive style all section */
+@media screen and (max-width: 570px){
+    body{
+        overflow: hidden;
+    }
+    .container{
+        width: 100%;   
+    }
+    .header-main{
+        padding: 0px 8px;
+    }
+    /* -------header section------ */
+    .header-main{
+        border-bottom: 2px solid orange;
+        padding: 10px 8px;
+    } 
+    .nav-logo{
+        width: 40px;
+        height: 40px;
+    }
+    .logo-title{
+        display: none;
+    }
+    .nav-menu{
+        display: none;
+    }
+    .mobile-menu{
+        display: flex;
+    }
+    .nav-btn{
+        display: none;
+    }
+    /* ------banner----- */
+    .banner-main{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        row-gap: 10px;
+        padding: 30px 8px;
+    }
+    .banner-img{
+        width: 100%;
+    }
+    .banner-title{
+        font-size: 32px;
+        font-weight: 600;
+        text-align: center;
+    }
+    .banner-dec{
+        font-size: 14px;
+        font-weight: 500;
+        text-align: center;
+    }
+    .banner-right{
+        padding: 16px;
+    }
+    .banner-left{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+
+
+}
