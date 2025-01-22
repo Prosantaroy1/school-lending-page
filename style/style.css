@@ -303,6 +303,16 @@ li{
 .right-btn .p2{
     background-color: #751beb;
 }
+.stories-view-all{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.stories-btn{
+    background-color: #111111;
+    color: white;
+}
 
 
 
@@ -358,7 +368,7 @@ li{
 /* responsive style all section */
 @media screen and (max-width: 570px) {
     body {
-        overflow: hidden;
+        overflow-x: hidden;
     }
     .container {
         width: 100%;
